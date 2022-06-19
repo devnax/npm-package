@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
-import { Box } from "../src";
+import QuizView from '../src'
 const App = () => {
-	return <div>
-		<Box />
-	</div>
+	return <>
+		<QuizView />
+	</>
 }
 
 export default App;
